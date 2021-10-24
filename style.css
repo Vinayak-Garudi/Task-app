@@ -1,0 +1,51 @@
+.createTask{
+  margin: 5px;
+  padding: 2px;
+}
+.taskCard{
+  margin: 5px;
+  padding: 10px;
+  background-color: white;
+  border: solid 2px #eee ;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 26px;
+}
+.inputBox{
+  width: 250px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+#addTaskButton{
+  width: 180px;
+  padding: 5px;
+  font-size: 18px;
+  color: white;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  border: none;
+
+}
+
+#signUpButton{
+  width: 180px;
+  padding: 5px;
+  font-size: 18px;
+  color: white;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  border: none;
+
+}
+
+#signInButton{
+  width: 180px;
+  padding: 5px;
+  font-size: 18px;
+  color: white;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  border: none;
+
+}
