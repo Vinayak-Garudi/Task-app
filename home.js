@@ -8,7 +8,7 @@ let taskEndDate = document.getElementById('taskEndDate');
 let addTaskButton = document.getElementById('addTaskButton');
 
 
-window.onload = setTimeout(function() { getData(); }, 3000);
+window.onload = setTimeout(function() { getData(); }, 2000);
 
 function getData(){
     

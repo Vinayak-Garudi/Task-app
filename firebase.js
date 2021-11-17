@@ -78,6 +78,8 @@ createUserWithEmailAndPassword(auth, email, password)
 
 
   const userData = doc(collection(db, "userProfile"), user.uid);
+  const userTask = doc(collection(db, "userTask"), user.uid);
+  setDoc(userTask, {});
   setDoc(userData, userProfile).then(()=>{
     window.location.replace('/home.html');
   });
